@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 50px;
+  margin: 30px;
+  background-color: rgb(238, 238, 245);
+  text-align: center;
+}
+.header .icon {
+  border: 2px solid #00eaff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 56px;
+  margin-bottom: 35px;
+  line-height: 64px;
+  text-align: center;
+  width: 56px;
+}
+.header h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.header p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.header .lable .jlable {
+  display: block;
+  margin-bottom: 20px;
+}
+.header .lable input[type="email"] {
+  height: 25px;
+  width: 250px;
+  background-color: #fff;
+  color: #000;
+  font-style: italic;
+}
+.header .lable button {
+  height: 35px;
+  width: 170px;
+  background-color: #fff;
+  color: #000;
+}
+
+.header .lable button:hover {
+  background-color: blue;
+}

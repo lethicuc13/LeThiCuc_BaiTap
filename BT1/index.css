@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.main {
+  margin: 20px auto;
+  text-align: center;
+  width: 800px;
+}
+.box {
+  width: 190px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgb(105, 105, 230);
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.slider h2 {
+  font-size: 45px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.slider h2 strong {
+  color: #00aeef;
+  font-weight: 600;
+}
+.slider text {
+  margin-bottom: 25px;
+}
+.content {
+  margin-top: 40px;
+}
+.btn-list {
+  text-align: center;
+}
+.btn-list li {
+  display: inline;
+  margin: 0px 15px;
+}
+.btn-list li a {
+  width: 170px;
+  height: 56px;
+  background-color: black;
+  color: #fff;
+  display: inline-block;
+  margin-left: 15px;
+  line-height: 56px;
+  border-radius: 5px;
+  text-decoration: none;
+}
