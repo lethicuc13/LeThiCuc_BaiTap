@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 20px auto;
+  width: 1000px;
+}
+.header .box {
+  width: 300px;
+  height: 310px;
+  float: left;
+  background-color: rgb(193, 201, 197);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header .text {
+  float: right;
+  width: 640px;
+}
+.header h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.header .info {
+  width: 550px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.header .info p {
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
+.header .detail a {
+  width: 170px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: #fff;
+  color: #000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.header .detail a:hover {
+  background-color: blue;
+}
