@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 30px auto;
+  width: 1000px;
+  height: 745px;
+  background-color: rgb(199, 216, 216);
+}
+.header h2 {
+  padding-top: 15px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.header h2:after {
+  background-color: #1d1d1d;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 11px auto 30px;
+  position: relative;
+  width: 85px;
+}
+
+.header .list {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.header .list li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.header .list li a:hover {
+  color: blue;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.header .border {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 980px;
+  height: 590px;
+  background-color: white;
+}
+.header .box {
+  width: 300px;
+  height: 170px;
+  background-color: rgb(39, 240, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.header .border-box1 {
+  display: inline-flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header .border-box2 {
+  display: inline-flex;
+  margin-left: 20px;
+}
+
+.header .border-box3 {
+  display: inline-flex;
+  margin-left: 20px;
+}
