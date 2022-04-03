@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: url("./hinhanh2.jpeg") top center / cover no-repeat;
+  width: 1200px;
+  margin: 30px auto;
+  padding: 35px 0;
+}
+.header ul {
+  text-align: center;
+}
+.header ul li {
+  color: white;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+}
+.header ul li p {
+  width: 100%;
+}
+.header ul li img {
+  margin-bottom: 14px;
+  font-size: 45px;
+  color: #fff;
+}
+
+.analheaderytic ul li .number {
+  font-size: 43px;
+  margin-bottom: 5px;
+}
