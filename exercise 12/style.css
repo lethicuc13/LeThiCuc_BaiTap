@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 30px auto;
+  padding: 20px;
+  width: 1000px;
+  height: 50px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+.header .box {
+  width: 190px;
+  height: 50px;
+  background-color: blue;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+.header ul {
+  float: left;
+  padding: 15px 0 0 29px;
+}
+.header ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.header ul li.style a,
+.header ul li a:hover {
+  color: blue;
+}
+.header button {
+  position: absolute;
+  width: 120px;
+  height: 34px;
+  border: 1px solid #000000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.header img {
+  width: 10px;
+}
+.header button:hover {
+  background-color: blue;
+  color: #fff;
+}
