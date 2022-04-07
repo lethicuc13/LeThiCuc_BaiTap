@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.features {
+  width: 600px;
+  height: 350px;
+  margin: 30px auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(201, 193, 193);
+}
+a:hover {
+  color: blue;
+}
+.features h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.features p {
+  margin-bottom: 20px;
+  color: rgb(201, 193, 193);
+}
+.features ul li {
+  float: left;
+  margin-bottom: 10px;
+  font-size: 15px;
+  width: 33%;
+}
