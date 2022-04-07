@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 20px auto;
+  width: 1200px;
+  height: 200px;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(187, 186, 186);
+}
+a:hover {
+  color: blue;
+}
+ul {
+  list-style: none;
+}
+.header div {
+  float: left;
+}
+.header h2 {
+  margin-bottom: 30px;
+}
+.header .air {
+  width: 400px;
+  height: 200px;
+}
+.header .links {
+  width: 170px;
+  height: 200px;
+}
+
+.header .catedories {
+  width: 180px;
+  height: 200px;
+}
+.header .contact {
+  width: 400px;
+  height: 200px;
+}
+.header .air p {
+  font-style: normal;
+}
+.header .contact p {
+  font-style: italic;
+}
