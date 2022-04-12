@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  width: 650px;
+  margin: 30px auto;
+}
+ul {
+  list-style: none;
+}
+
+.fix:after {
+  clear: both;
+  content: ".";
+  display: block;
+}
+
+.list .box {
+  width: 100px;
+  float: left;
+}
+.list .compre {
+  width: 520px;
+  float: right;
+}
+.list .box .box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  font-size: 40px;
+}
+.list .compre h2 {
+  margin-bottom: 20px;
+}
+.list .compre p {
+  color: darkgrey;
+}

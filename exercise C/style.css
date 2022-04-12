@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 800px;
+  height: 320px;
+  margin: 30px auto;
+}
+.header .box {
+  float: left;
+  width: 320px;
+}
+.header .title {
+  float: right;
+  width: 450px;
+}
+.header .box {
+  height: 320px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  font-size: 24px;
+}
+
+.header .title h2 {
+  padding: 0 0 20px 0;
+}
+.header .title h2::after {
+  background-color: blue;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60px;
+}
+
+.header .title p {
+  margin-bottom: 20px;
+  color: rgb(145, 143, 143);
+}
+.header .title ul {
+  padding: 14px 0 0 20px;
+  list-style: none;
+}
+.header .title ul li {
+  float: left;
+  width: 50%;
+}
+.header .title ul li a {
+  text-decoration: none;
+  color: rgb(145, 143, 143);
+}
