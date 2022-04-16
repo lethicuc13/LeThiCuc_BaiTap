@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 1170px;
+  height: 300px;
+  margin: 30px auto;
+  background-color: rgb(31, 29, 29);
+  color: rgb(173, 171, 171);
+}
+.header .border {
+  width: 350px;
+  padding: 20px;
+  float: left;
+}
+.header .border .box {
+  width: 190px;
+  height: 50px;
+  background-color: blue;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+.header .title > div {
+  float: left;
+  margin-right: 30px;
+}
+.header .title .info-link,
+.header .title .details,
+.header .title .sosial {
+  width: 230px;
+}
+.header .title h3 {
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+}
+.header .title ul.list li {
+  border-bottom: 1px dashed #fff;
+  font-size: 15px;
+  margin-bottom: 11px;
+  padding-bottom: 9px;
+}
+.header .title ul.list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.header .title ul.list li a:hover {
+  color: #fff;
+}
+.header .title ul.list li i {
+  border-right: 1px dashed #fff;
+  padding-right: 16px;
+  margin-right: 14px;
+  font-style: normal;
+}
+.header .title ul.list li i {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: rgb(173, 171, 171);
+}
