@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.frame {
+  width: 800px;
+  height: 700px;
+  margin: 30px auto;
+}
+.frame h2 {
+  text-align: center;
+  font-size: 32px;
+  padding: 20px 0 20px 0;
+}
+.frame .header .box-message {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+  height: 550px;
+  box-shadow: 0 0 20px 1px #ddd;
+}
+
+.frame .header .box-message h3 {
+  padding: 40px 40px 30px 40px;
+}
+.frame .header .box-message p {
+  padding: 0 40px 30px 40px;
+  font-size: 21px;
+}
+.frame .header .box-message .link {
+  color: rgb(126, 126, 231);
+  font-style: italic;
+}
+.frame .header .title {
+  float: right;
+  width: 450px;
+}
+.frame .header .title p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
